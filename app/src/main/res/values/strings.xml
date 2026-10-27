@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QR Studio</string>
+    <string name="app_tagline">Beautiful QR codes, made on your device.</string>
+    <string name="privacy_note">Everything stays on your device.</string>
+
+    <!-- Navigation -->
+    <string name="nav_create">Create</string>
+    <string name="nav_history">History</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Create -->
+    <string name="create_heading">What are you sharing?</string>
+    <string name="create_subheading">Pick a format. QR Studio builds it offline, instantly.</string>
+    <string name="type_wifi">Wi-Fi</string>
+    <string name="type_wifi_desc">Join a network without typing</string>
+    <string name="type_vcard">Contact</string>
+    <string name="type_vcard_desc">Name, phone, email and more</string>
+    <string name="type_url">Website</string>
+    <string name="type_url_desc">Open a link instantly</string>
+    <string name="type_text">Text</string>
+    <string name="type_text_desc">Any plain message</string>
+    <string name="type_email">Email</string>
+    <string name="type_email_desc">A message ready to send</string>
+    <string name="type_phone">Phone</string>
+    <string name="type_phone_desc">Dial a number</string>
+    <string name="type_sms">SMS</string>
+    <string name="type_sms_desc">A text ready to send</string>
+    <string name="type_location">Location</string>
+    <string name="type_location_desc">Open a map at coordinates</string>
+    <string name="create_card_content_desc">Create a %1$s QR code</string>
+
+    <!-- Generator -->
+    <string name="generator_heading">%1$s QR code</string>
+    <string name="back">Back</string>
+    <string name="favorite">Add to favorites</string>
+    <string name="unfavorite">Remove from favorites</string>
+    <string name="customize">Customize</string>
+    <string name="cancel">Cancel</string>
+    <string name="undo">Undo</string>
+    <string name="details_section">Details</string>
+    <string name="preview_content_desc">Preview of your QR code</string>
+    <string name="preview_placeholder">Your preview appears here as you type.</string>
+    <string name="preview_rendering">Rendering preview</string>
+    <string name="preview_too_long">Too long for a QR code at this error-correction level. Shorten the content or lower the level.</string>
+    <string name="preview_failed">This QR code could not be rendered.</string>
+    <string name="preview_invalid">Complete the form to see a preview.</string>
+    <string name="contrast_warning">Low contrast. Strengthen the difference between the foreground and background.</string>
+    <string name="inverted_warning">The foreground is lighter than the background. Inverted codes often fail to scan.</string>
+    <string name="logo_forced_ec">Error correction is locked to H while a logo is set.</string>
+    <plurals name="char_count">
+        <item quantity="one">%1$d character</item>
+        <item quantity="other">%1$d characters</item>
+    </plurals>
+    <string name="capacity_near">Close to the capacity for this error-correction level.</string>
+    <string name="capacity_over">Over the capacity for this error-correction level.</string>
+
+    <!-- Form labels -->
+    <string name="field_ssid">Network name (SSID)</string>
+    <string name="field_security">Security</string>
+    <string name="field_password">Password</string>
+    <string name="field_hidden_network">Hidden network</string>
+    <string name="security_wpa">WPA/WPA2</string>
+    <string name="security_wep">WEP</string>
+    <string name="security_none">No password</string>
+    <string name="show_password">Show password</string>
+    <string name="hide_password">Hide password</string>
+    <string name="password_not_needed">Not needed for an open network.</string>
+    <string name="field_url">Website URL</string>
+    <string name="field_url_hint">example.com</string>
+    <string name="field_name">Full name</string>
+    <string name="field_organization">Organization</string>
+    <string name="field_job_title">Job title</string>
+    <string name="field_phone">Phone</string>
+    <string name="field_email">Email</string>
+    <string name="field_website">Website</string>
+    <string name="field_address">Address</string>
+    <string name="field_note">Note</string>
+    <string name="field_text">Text</string>
+    <string name="field_email_to">To</string>
+    <string name="field_subject">Subject</string>
+    <string name="field_message">Message</string>
+    <string name="field_number">Phone number</string>
+    <string name="field_sms_message">Message</string>
+    <string name="field_latitude">Latitude</string>
+    <string name="field_longitude">Longitude</string>
+    <string name="field_lat_hint">37.7749</string>
+    <string name="field_lng_hint">-122.4194</string>
+
+    <!-- Validation -->
+    <string name="err_required">This field is required.</string>
+    <string name="err_invalid_url">Enter a valid web address.</string>
+    <string name="err_invalid_email">Enter a valid email address.</string>
+    <string name="err_invalid_phone">Enter a valid phone number.</string>
+    <string name="err_invalid_lat">Latitude must be between -90 and 90.</string>
+    <string name="err_invalid_lng">Longitude must be between -180 and 180.</string>
+    <string name="err_ssid_too_long">Wi-Fi names can be at most 32 bytes.</string>
+    <string name="err_missing_name_or_phone">Add a name or a phone number.</string>
+
+    <!-- Actions -->
+    <string name="action_save">Save</string>
+    <string name="action_share">Share</string>
+    <string name="action_copy">Copy</string>
+    <string name="action_pdf">PDF</string>
+    <string name="action_export">Export</string>
+    <string name="share_chooser_title">Share QR code</string>
+
+    <!-- Customize -->
+    <string name="customize_title">Customize</string>
+    <string name="customize_style">Style</string>
+    <string name="customize_colors">Colors</string>
+    <string name="customize_advanced">Advanced</string>
+    <string name="label_foreground">Foreground</string>
+    <string name="label_background">Background</string>
+    <string name="label_module_style">Module style</string>
+    <string name="module_square">Square</string>
+    <string name="module_rounded">Rounded</string>
+    <string name="module_dots">Dots</string>
+    <string name="label_size">Image size</string>
+    <string name="size_pixels">%1$d px</string>
+    <string name="label_error_correction">Error correction</string>
+    <string name="ec_low">L</string>
+    <string name="ec_medium">M</string>
+    <string name="ec_quartile">Q</string>
+    <string name="ec_high">H</string>
+    <string name="ec_hint">Higher levels survive more damage but hold less data.</string>
+    <string name="label_quiet_zone">Quiet zone</string>
+    <plurals name="quiet_zone_value">
+        <item quantity="one">%1$d module</item>
+        <item quantity="other">%1$d modules</item>
+    </plurals>
+    <string name="label_logo">Center logo</string>
+    <string name="logo_add">Choose logo</string>
+    <string name="logo_remove">Remove logo</string>
+    <string name="logo_size">Logo size</string>
+    <string name="logo_size_value">%1$d%%</string>
+    <string name="logo_preview_desc">Selected center logo</string>
+    <string name="label_hex">Hex</string>
+    <string name="color_hex_invalid">Enter a 6-digit hex color, for example #0B6B57.</string>
+    <string name="color_swatch_desc">Use color %1$s</string>
+
+    <!-- History -->
+    <string name="history_title">History</string>
+    <string name="search_hint">Search saved codes</string>
+    <string name="filter_all">All</string>
+    <string name="filter_favorites">Favorites</string>
+    <string name="filter_type_content_desc">Filter by %1$s</string>
+    <string name="empty_history_title">Nothing saved yet</string>
+    <string name="empty_history_body">Codes you create are saved here automatically. Start with a Wi-Fi or website code.</string>
+    <string name="empty_favorites_title">No favorites yet</string>
+    <string name="empty_favorites_body">Tap the star on a saved code to keep it close.</string>
+    <string name="empty_search_title">No matches</string>
+    <string name="empty_search_body">Try a different phrase or filter.</string>
+    <string name="empty_action_create">Create a QR code</string>
+    <string name="history_item_desc">%1$s QR code: %2$s</string>
+    <string name="qr_thumbnail_desc">Thumbnail of %1$s</string>
+    <plurals name="selected_count">
+        <item quantity="one">%1$d selected</item>
+        <item quantity="other">%1$d selected</item>
+    </plurals>
+    <string name="delete_selected">Delete selected</string>
+    <string name="favorite_selected">Add to favorites</string>
+    <string name="unfavorite_selected">Remove from favorites</string>
+    <string name="exit_selection">Exit selection</string>
+    <string name="snack_deleted_one">QR code deleted.</string>
+    <string name="snack_deleted_many">%1$d QR codes deleted.</string>
+    <string name="clear_search">Clear search</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="appearance_title">Appearance</string>
+    <string name="theme_label">Theme</string>
+    <string name="theme_system">System</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="defaults_title">Defaults for new codes</string>
+    <string name="default_ec_label">Error correction</string>
+    <string name="default_size_label">Image size</string>
+    <string name="behavior_title">History</string>
+    <string name="save_history_label">Save history</string>
+    <string name="save_history_desc">Keep a local copy of codes you generate. Favorites are always kept.</string>
+    <string name="clear_history">Clear all history</string>
+    <string name="clear_history_title">Delete all history?</string>
+    <string name="clear_history_body">Every saved code and favorite on this device will be removed. This cannot be undone.</string>
+    <string name="clear_history_confirm">Delete everything</string>
+    <string name="snack_history_cleared">History cleared.</string>
+    <string name="about_title">About</string>
+    <string name="about_version">Version %1$s</string>
+    <string name="about_privacy_title">Privacy</string>
+    <string name="about_privacy_body">No accounts, no analytics, no network permission. Your codes and Wi-Fi passwords never leave this device.</string>
+    <string name="about_libraries">Built with ZXing, Jetpack Compose and Room.</string>
+
+    <!-- Messages -->
+    <string name="snack_saved_gallery">Saved to Pictures/QR Studio</string>
+    <string name="snack_pdf_saved">PDF saved to Downloads/QR Studio</string>
+    <string name="snack_copied">Payload copied to the clipboard.</string>
+    <string name="snack_copied_sensitive">Wi-Fi credentials copied. Keep them private.</string>
+    <string name="snack_copy_failed">Couldn\'t copy to the clipboard.</string>
+    <string name="snack_preview_wait">The preview is still rendering. Try again in a moment.</string>
+    <string name="snack_record_missing">That saved code is no longer available.</string>
+    <string name="snack_export_failed">Export failed. Check available storage and try again.</string>
+    <string name="snack_share_failed">Couldn\'t prepare the image for sharing.</string>
+    <string name="snack_logo_failed">Couldn\'t import that image.</string>
+    <string name="snack_permission_denied">Storage permission is needed to save on this Android version.</string>
+    <string name="snack_validation_failed">Check the highlighted fields.</string>
+    <string name="pdf_dialog_title">Export PDF</string>
+    <string name="pdf_dialog_body">Choose a page layout for your code.</string>
+    <string name="pdf_a4">A4 page</string>
+    <string name="pdf_a4_desc">Full page with title and type</string>
+    <string name="pdf_sticker">Sticker</string>
+    <string name="pdf_sticker_desc">Compact 4 × 5 inch card</string>
+</resources>
